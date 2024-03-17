@@ -1,3 +1,7 @@
+**Vídeo de Apresentação do Projeto - Youtube**
+
+https://www.youtube.com/watch?v=YJZLC5IQruk
+
 **Importação de Microdados RAIS (MTE)** 
 
 - Processo de importação dos microdados da RAIS, disponibilizados pelo site do Ministério do Trabalho http://pdet.mte.gov.br/microdados-rais-e-caged.
@@ -18,4 +22,6 @@ O cálculo do QL será realizado posteriormente utilizando a linguagem DAX no Po
 Este código fornece uma base sólida para análises mais aprofundadas no Power BI, permitindo uma compreensão mais completa e detalhada da economia regional no Paraná.
 
 **Dashboard Power BI**
+
 https://app.powerbi.com/view?r=eyJrIjoiMWU4OGZlOWYtYzNkMi00NjQxLWIwNzQtYWIxMmM5YjM4MjdjIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9&embedImagePlaceholder=true
+
