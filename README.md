@@ -10,3 +10,6 @@ Neste código, foi realizada através de bibliotecas do Python a importação e 
 📊**Dashboard Power BI**
 
 - https://app.powerbi.com/view?r=eyJrIjoiMWU4OGZlOWYtYzNkMi00NjQxLWIwNzQtYWIxMmM5YjM4MjdjIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9&embedImagePlaceholder=true
+<img width="698" alt="image" src="https://github.com/melissa-siejka/Pos-Graduacao-Analytics-Business-Intelligence/assets/148575201/278417fc-bfa7-40b7-b6c7-c4494f27ef58">
+
+
