@@ -1,7 +1,7 @@
 # 1. Importação das bibliotecas necessárias
+
 import ftplib
 import os
-import patoolib
 
 # 2. Endereço do FTP
 ftp = ftplib.FTP("ftp.mtps.gov.br")
@@ -10,7 +10,8 @@ ftp = ftplib.FTP("ftp.mtps.gov.br")
 ftp.login()
 
 # 4. Indica para qual pasta navegar.
-ftp.cwd('/pdet/microdados/RAIS/2021')
+ftp.cwd('/pdet/microdados/RAIS/Layouts/vínculos'.encode('utf-8'))
+
 diretorios_disponiveis = ftp.nlst()
 
 # 5. Exibe os diretórios disponíveis para selecionar
@@ -18,13 +19,15 @@ print("Diretórios disponíveis:")
 for diretorio in diretorios_disponiveis:
     print(diretorio)
 
-# Esses caminhos serão utilizados para salvar os arquivos baixados e extraidos.
-caminho_pasta = 'C:/Python/RAIS/Vinculos/2021_'
-caminho_pasta_txt = 'C:/Python/RAIS/Vinculos/Anual'
+
+# esses caminhos serão utilizados para salvar os arquivos baixados e extraidos.
+caminho_pasta = 'C:/Python/RAIS/'
+caminho_pasta_txt = 'C:/Python/RAIS/'
+
 
 # 6. Limpa o caminho do diretório se for executado novamente
 try:
-    os.remove(caminho_pasta + 'RAIS_VINC_PUB_SUL.7z')
+    os.remove(caminho_pasta + 'RAIS_vinculos_layout.xls')
 except:
     # e caso eles não existam, apenas passe para o próximo comando.
     pass
@@ -36,17 +39,4 @@ def getFile(ftp, filename):
     except:
         print("Error")
 
-getFile(ftp, 'RAIS_VINC_PUB_SUL.7z')
-
-# 8. Descompactar e converter para csv
-
-try:
-    patoolib.extract_archive(caminho_pasta + "RAIS_VINC_PUB_SUL.7z", outdir=caminho_pasta_txt, program="C/Program Files/7-Zip/7z.exe")
-except patoolib.util.PatoolError as e:
-    print(f"Erro ao extrair o arquivo: {e}")
-
-# 9. Feche a conexão FTP quando não for mais necessária
-
-ftp.quit()
-
-
+getFile(ftp, 'RAIS_vinculos_layout.xls')
