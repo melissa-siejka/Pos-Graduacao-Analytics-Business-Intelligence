@@ -10,5 +10,3 @@ Neste código, foi realizada através de bibliotecas do Python a importação e 
 📊**Dashboard Power BI**
 
 - https://app.powerbi.com/view?r=eyJrIjoiMWU4OGZlOWYtYzNkMi00NjQxLWIwNzQtYWIxMmM5YjM4MjdjIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9&embedImagePlaceholder=true
-
-<iframe title="Dashboard Projeto Final Integrado_Atual" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMWU4OGZlOWYtYzNkMi00NjQxLWIwNzQtYWIxMmM5YjM4MjdjIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
